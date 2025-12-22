@@ -1,0 +1,13 @@
+streamlit
+langchain-community
+langchain-huggingface
+langchain-core
+langchain-google-genai
+faiss-cpu
+rank_bm25
+python-dotenv
+langchain
+scikit-learn
+pypdf
+tiktoken
+numpy

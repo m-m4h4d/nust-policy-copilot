@@ -1,0 +1,962 @@
+[
+    {
+        "question": "Provide a summary of the grading section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p31_c0"
+        ],
+        "topic": "Grading",
+        "source_preview": "NUST Undergraduate Student Handbook 27 5. Academic Standards for Award of Degree . The Grade Point w..."
+    },
+    {
+        "question": "Can you explain the procedure for hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p105_c1"
+        ],
+        "topic": "Hostel",
+        "source_preview": "respective Manager (Hostels), at the time of joining the hostel. c. Please submit the signed/counter..."
+    },
+    {
+        "question": "Detail the guidelines provided for fee.",
+        "gold_ids": [
+            "UG Handbook.pdf_p28_c1"
+        ],
+        "topic": "Fees",
+        "source_preview": "ed time. e. In case, a student opts to defer the first-semester s/he must pay the full tuition fee (..."
+    },
+    {
+        "question": "How does the handbook define the policy for fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p109_c1"
+        ],
+        "topic": "Fees",
+        "source_preview": "ion processing fee are payable along with the tuition fee at the time of admission. 3. \u201cHarvard Busi..."
+    },
+    {
+        "question": "Can you explain the procedure for fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p109_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "NUST Undergraduate Student Handbook 105 Fee Structure for International Students (In USD) Engineerin..."
+    },
+    {
+        "question": "Detail the guidelines provided for attendance.",
+        "gold_ids": [
+            "UG Handbook.pdf_p31_c1"
+        ],
+        "topic": "Attendance",
+        "source_preview": " grade). Grade Numerical Equivalence Grade Point Major Field Courses All Other Courses A 80-100% 4.0..."
+    },
+    {
+        "question": "Provide a summary of the attendance section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p101_c1"
+        ],
+        "topic": "Attendance",
+        "source_preview": "isiting rooftops of hostels. (19) Arrange private trips/visits without written permission of DD Host..."
+    },
+    {
+        "question": "Provide a summary of the course section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p22_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "18 NUST Undergraduate Student Handbook 29. Record of Results . The final result shall be recorded on..."
+    },
+    {
+        "question": "What are the consequences related to absent?",
+        "gold_ids": [
+            "UG Handbook.pdf_p68_c0"
+        ],
+        "topic": "Attendance",
+        "source_preview": "64 NUST Undergraduate Student Handbook i. \u201cPresent\u201d, will be marked from the day of deposit of dues...."
+    },
+    {
+        "question": "If a student has an issue with GPA, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p70_c0"
+        ],
+        "topic": "Grading",
+        "source_preview": "66 NUST Undergraduate Student Handbook 11. Other Academic Provisions. a. Registration of number of C..."
+    },
+    {
+        "question": "What is the NUST stance on attendance?",
+        "gold_ids": [
+            "UG Handbook.pdf_p79_c2"
+        ],
+        "topic": "Attendance",
+        "source_preview": "1751/ Instagram: https://www.instagram.com/nustgram/?hl=en 3. Qalam. NUST has implemented On-Demand ..."
+    },
+    {
+        "question": "Is there any mention of fee in the regulations?",
+        "gold_ids": [
+            "UG Handbook.pdf_p42_c1"
+        ],
+        "topic": "Fees",
+        "source_preview": "tration. d. The student has the requisite time available to complete his/her degree within the stipu..."
+    },
+    {
+        "question": "Can you explain the procedure for project?",
+        "gold_ids": [
+            "BSCS Booklet.pdf_p10_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "1918 Abstract Booklet BSCS 2022 Abstract Booklet BSCS 2022 Knowledge Area: Knowledge Area: Deep Lear..."
+    },
+    {
+        "question": "If a student has an issue with fee, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p106_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "102 NUST Undergraduate Student Handbook Annex A to Para 30 to Chapter 2 Re-Checking of Papers 1. Fil..."
+    },
+    {
+        "question": "What is the NUST stance on GPA?",
+        "gold_ids": [
+            "UG Handbook.pdf_p24_c1"
+        ],
+        "topic": "Grading",
+        "source_preview": "uld be placed on warning under the following condition as per the latest policies of the University:..."
+    },
+    {
+        "question": "If a student has an issue with leave, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p83_c0"
+        ],
+        "topic": "Attendance",
+        "source_preview": "NUST Undergraduate Student Handbook 79 b. Classroom Standards. The individual faculty member is prim..."
+    },
+    {
+        "question": "What are the official rules regarding fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p51_c1"
+        ],
+        "topic": "Fees",
+        "source_preview": "e no extra coaching classes before such retests. d. Taking Alternative Elective Course. A student ma..."
+    },
+    {
+        "question": "What are the official rules regarding degree?",
+        "gold_ids": [
+            "UG Handbook.pdf_p72_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "68 NUST Undergraduate Student Handbook Transcript/Degree) by submitting Rs 700 per copy. All the Inf..."
+    },
+    {
+        "question": "Detail the guidelines provided for fee.",
+        "gold_ids": [
+            "UG Handbook.pdf_p110_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "106 NUST Undergraduate Student Handbook Hostel Accommodation Charges Category National Students Inte..."
+    },
+    {
+        "question": "Provide a summary of the project section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p42_c2"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "agiarism, cause for formal school discipline, and justification for any faculty member to award a fa..."
+    },
+    {
+        "question": "Is there any mention of attendance in the regulations?",
+        "gold_ids": [
+            "UG Handbook.pdf_p32_c0"
+        ],
+        "topic": "Attendance",
+        "source_preview": "28 NUST Undergraduate Student Handbook 8. Parameters for determining a student's grade in a course a..."
+    },
+    {
+        "question": "If a student has an issue with exam, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p35_c2"
+        ],
+        "topic": "Grading",
+        "source_preview": "akes up the unfinished portion of his/her course and is given a grade at the discretion of the facul..."
+    },
+    {
+        "question": "What are the consequences related to absent?",
+        "gold_ids": [
+            "UG Handbook.pdf_p101_c2"
+        ],
+        "topic": "Attendance",
+        "source_preview": "from the hostel for more than 07 days without prior information, his/her hostel allotment will be ca..."
+    },
+    {
+        "question": "Provide a summary of the degree section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p40_c2"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "UST. (4) Cannot complete his/her degree requirements within the maximum stipulated time of eight yea..."
+    },
+    {
+        "question": "Can you explain the procedure for fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p22_c1"
+        ],
+        "topic": "Fees",
+        "source_preview": "valuated by the examiners. Answer books of a student in any examination shall not be reassessed unde..."
+    },
+    {
+        "question": "What is the NUST stance on hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p104_c0"
+        ],
+        "topic": "Hostel",
+        "source_preview": "100 NUST Undergraduate Student Handbook 23. Punishment. It is mandatory to comply with the timings a..."
+    },
+    {
+        "question": "Detail the guidelines provided for hostel.",
+        "gold_ids": [
+            "UG Handbook.pdf_p89_c0"
+        ],
+        "topic": "Hostel",
+        "source_preview": "NUST Undergraduate Student Handbook 85 (1) Expulsion. Expulsion from the class for a specific period..."
+    },
+    {
+        "question": "What specific requirements are listed for attendance?",
+        "gold_ids": [
+            "UG Handbook.pdf_p20_c2"
+        ],
+        "topic": "Attendance",
+        "source_preview": " by repetition of the course whenever offered. b. Award of Grade I. A student, who, because of illne..."
+    },
+    {
+        "question": "What is the NUST stance on exam?",
+        "gold_ids": [
+            "UG Handbook.pdf_p47_c1"
+        ],
+        "topic": "Grading",
+        "source_preview": "t (2) Place the student on probation (3) Recommend suspension of the student (4) Recommend withdrawa..."
+    },
+    {
+        "question": "What is the NUST stance on course?",
+        "gold_ids": [
+            "UG Handbook.pdf_p82_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "78 NUST Undergraduate Student Handbook a. Cheating. Intentionally using or attempting to use unautho..."
+    },
+    {
+        "question": "What are the consequences related to degree?",
+        "gold_ids": [
+            "UG Handbook.pdf_p27_c1"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "urse to improve his/her CGPA subject to the following provisions: (a) The student should register fo..."
+    },
+    {
+        "question": "Is there any mention of attendance in the regulations?",
+        "gold_ids": [
+            "UG Handbook.pdf_p39_c1"
+        ],
+        "topic": "Attendance",
+        "source_preview": "y Main Office, NUST, subject to any of the conditions listed below: (1) On disciplinary grounds when..."
+    },
+    {
+        "question": "Detail the guidelines provided for fee.",
+        "gold_ids": [
+            "UG Handbook.pdf_p42_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "38 NUST Undergraduate Student Handbook Semester subject to conditions laid down in chapter 8 (Summer..."
+    },
+    {
+        "question": "Detail the guidelines provided for degree.",
+        "gold_ids": [
+            "UG Handbook.pdf_p3_c1"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "Award of Bachelors' Degree in Management/Social Sciences and Academic Deficiencies ...................."
+    },
+    {
+        "question": "What specific requirements are listed for GPA?",
+        "gold_ids": [
+            "UG Handbook.pdf_p36_c2"
+        ],
+        "topic": "Grading",
+        "source_preview": "re received from each Department, the Examination Branch of the institution shall compile the final ..."
+    },
+    {
+        "question": "Provide a summary of the degree section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p14_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "10 NUST Undergraduate Student Handbook Chapter 2: Scheme of Studies, Examinations, and Academic Stan..."
+    },
+    {
+        "question": "Detail the guidelines provided for attendance.",
+        "gold_ids": [
+            "UG Handbook.pdf_p96_c2"
+        ],
+        "topic": "Attendance",
+        "source_preview": "he students who have obtained F grades/Low grades/Repeat courses/Short attendance. 6. Temporary Host..."
+    },
+    {
+        "question": "How does the handbook define the policy for attendance?",
+        "gold_ids": [
+            "UG Handbook.pdf_p51_c0"
+        ],
+        "topic": "Attendance",
+        "source_preview": "NUST Undergraduate Student Handbook 47 (3) S/he will not be eligible for top academic honours / awar..."
+    },
+    {
+        "question": "What is the NUST stance on fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p67_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "NUST Undergraduate Student Handbook 63 (3) The invoices shall be issued 15 days before the closure o..."
+    },
+    {
+        "question": "Is there any mention of GPA in the regulations?",
+        "gold_ids": [
+            "UG Handbook.pdf_p53_c1"
+        ],
+        "topic": "Grading",
+        "source_preview": "e. c. Course Fee. Student(s) will register in a course and deposit the prescribed fee. The student c..."
+    },
+    {
+        "question": "How does the handbook define the policy for degree?",
+        "gold_ids": [
+            "UG Handbook.pdf_p15_c1"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "(graded course of 3 credit hours) for minimum duration of 6 weeks must be performed by 2 nd / 3 rd /..."
+    },
+    {
+        "question": "What is the NUST stance on hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p88_c2"
+        ],
+        "topic": "Hostel",
+        "source_preview": "ension/Permanent Removal. Expulsion from the hostel for a specified period, or permanent removal fro..."
+    },
+    {
+        "question": "Provide a summary of the dues section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p100_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "96 NUST Undergraduate Student Handbook (6) Take care of your valuables especially cash, mobile phone..."
+    },
+    {
+        "question": "What are the official rules regarding hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p91_c2"
+        ],
+        "topic": "Hostel",
+        "source_preview": "ing SGC. Every student complaint should be resolved through the normal reporting channels. The follo..."
+    },
+    {
+        "question": "How does the handbook define the policy for GPA?",
+        "gold_ids": [
+            "UG Handbook.pdf_p21_c1"
+        ],
+        "topic": "Grading",
+        "source_preview": "inst the specific course and shall not be considered for computation of GPA. d. Students with W on t..."
+    },
+    {
+        "question": "How does the handbook define the policy for software engineering?",
+        "gold_ids": [
+            "BSCS Booklet.pdf_p3_c1"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "pon the new journey. You are the flag-bearers now and we are very confident that you have the right ..."
+    },
+    {
+        "question": "If a student has an issue with attendance, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p97_c1"
+        ],
+        "topic": "Attendance",
+        "source_preview": "ommittee. e. Messing attendance register is placed in Manager Hostel\u2019s Office. Students desirous of ..."
+    },
+    {
+        "question": "Provide a summary of the exam section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p20_c3"
+        ],
+        "topic": "Grading",
+        "source_preview": ") End Semester Examination . Whenever a student misses the End Semester Examination due to reasons a..."
+    },
+    {
+        "question": "What specific requirements are listed for project?",
+        "gold_ids": [
+            "UG Handbook.pdf_p29_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "NUST Undergraduate Student Handbook 25 a. This chapter pertains to 8 Semesters of Bachelor of Indust..."
+    },
+    {
+        "question": "What are the official rules regarding course?",
+        "gold_ids": [
+            "UG Handbook.pdf_p47_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "NUST Undergraduate Student Handbook 43 a. An F/XF grade in any course b. Sem GPA less than 2.50 c. C..."
+    },
+    {
+        "question": "If a student has an issue with mess, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p66_c1"
+        ],
+        "topic": "Hostel",
+        "source_preview": "n Fee Timeline for Semester System Full (100%) of Tuition Fee Refund Apply up to 7th day of convenin..."
+    },
+    {
+        "question": "What is the NUST stance on dues?",
+        "gold_ids": [
+            "UG Handbook.pdf_p68_c1"
+        ],
+        "topic": "Fees",
+        "source_preview": " semester will not be enrolled in the semester. However, if a student fails to clear monthly hostel ..."
+    },
+    {
+        "question": "Can you explain the procedure for hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p91_c3"
+        ],
+        "topic": "Hostel",
+        "source_preview": " ( e.g., hostel, transportation, etc.). Depending on the urgency of the..."
+    },
+    {
+        "question": "Provide a summary of the fee section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p49_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "NUST Undergraduate Student Handbook 45 (4) Suspension on reasons beyond the student's control or aut..."
+    },
+    {
+        "question": "What specific requirements are listed for GPA?",
+        "gold_ids": [
+            "UG Handbook.pdf_p57_c1"
+        ],
+        "topic": "Grading",
+        "source_preview": "gree is calculated based on the courses only undertaken during the second degree. a. Conditions for ..."
+    },
+    {
+        "question": "What are the official rules regarding attendance?",
+        "gold_ids": [
+            "UG Handbook.pdf_p113_c0"
+        ],
+        "topic": "Attendance",
+        "source_preview": "NUST Undergraduate Student Handbook 109 a. Genuine medical issues (Submission of Medical Documents w..."
+    },
+    {
+        "question": "What are the official rules regarding fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p55_c1"
+        ],
+        "topic": "Fees",
+        "source_preview": "strar Dte). (14) The minimum CGPA required for opting for a Minor is 2.75 for Engineering, IT, CS, N..."
+    },
+    {
+        "question": "How does the handbook define the policy for fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p26_c2"
+        ],
+        "topic": "Fees",
+        "source_preview": "tudent is likely to be withdrawn on academic deficiencies, s/he will be duly warned and counselled, ..."
+    },
+    {
+        "question": "Detail the guidelines provided for attendance.",
+        "gold_ids": [
+            "UG Handbook.pdf_p67_c2"
+        ],
+        "topic": "Attendance",
+        "source_preview": "r for the semester or withholding academic activities in case of PG students by the institute. (3) S..."
+    },
+    {
+        "question": "What are the consequences related to absent?",
+        "gold_ids": [
+            "UG Handbook.pdf_p16_c2"
+        ],
+        "topic": "Attendance",
+        "source_preview": "mic Calendar . Director Academics prepares the academic calendar of the University based on the deta..."
+    },
+    {
+        "question": "Provide a summary of the project section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p23_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "NUST Undergraduate Student Handbook 19 Chapter 3: Award of Bachelor Degree and Academic Deficiencies..."
+    },
+    {
+        "question": "What is the NUST stance on fee?",
+        "gold_ids": [
+            "BSCS Booklet.pdf_p12_c2"
+        ],
+        "topic": "Fees",
+        "source_preview": " effective course work, build in consultation with a speech therapist, that will help them practice ..."
+    },
+    {
+        "question": "How does the handbook define the policy for software engineering?",
+        "gold_ids": [
+            "UG Handbook.pdf_p56_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "52 NUST Undergraduate Student Handbook (3) better performance with an understanding of multi-discipl..."
+    },
+    {
+        "question": "What are the consequences related to fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p40_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "36 NUST Undergraduate Student Handbook (2) Has been recommended by the respective institution. b. On..."
+    },
+    {
+        "question": "What specific requirements are listed for mess?",
+        "gold_ids": [
+            "UG Handbook.pdf_p86_c0"
+        ],
+        "topic": "Hostel",
+        "source_preview": "82 NUST Undergraduate Student Handbook (3) use of another individual's identification and/or passwor..."
+    },
+    {
+        "question": "If a student has an issue with hostel, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p102_c2"
+        ],
+        "topic": "Hostel",
+        "source_preview": "hose who have peculiar academic requirements duly recommended by the respective school may be consid..."
+    },
+    {
+        "question": "How does the handbook define the policy for absent?",
+        "gold_ids": [
+            "UG Handbook.pdf_p25_c1"
+        ],
+        "topic": "Attendance",
+        "source_preview": "trol. (3) If the student remains absent for more than thirty but less than forty - five consecutive ..."
+    },
+    {
+        "question": "What is the NUST stance on exam?",
+        "gold_ids": [
+            "UG Handbook.pdf_p106_c1"
+        ],
+        "topic": "Grading",
+        "source_preview": "nswer -book. Following is the procedure for rechecking of papers: It is ensured that: a. there is no..."
+    },
+    {
+        "question": "Provide a summary of the hostel section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p95_c1"
+        ],
+        "topic": "Hostel",
+        "source_preview": "chines (9) Hot Water in Winters (10) Water Purification 2. Allotment of Hostel Accommodation. a. Hos..."
+    },
+    {
+        "question": "What are the official rules regarding project?",
+        "gold_ids": [
+            "BSCS Booklet.pdf_p7_c1"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "s and status updates for navigation \u2022 Teaching Urdu grammar, idioms, proverbs, phrases, dialogues, a..."
+    },
+    {
+        "question": "Is there any mention of hostel in the regulations?",
+        "gold_ids": [
+            "UG Handbook.pdf_p114_c0"
+        ],
+        "topic": "Hostel",
+        "source_preview": "110 NUST Undergraduate Student Handbook Annex D to Para 30 to Chapter 12 NUST Hostel Rules Awareness..."
+    },
+    {
+        "question": "What are the official rules regarding exam?",
+        "gold_ids": [
+            "UG Handbook.pdf_p17_c2"
+        ],
+        "topic": "Grading",
+        "source_preview": "ntendent/deputy superintendent after the examination. The subject faculty shall remain available nea..."
+    },
+    {
+        "question": "Provide a summary of the hostel section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p112_c1"
+        ],
+        "topic": "Hostel",
+        "source_preview": "l Dte for opinion. b. Need-based Cases. Students who are unable to afford accommodation charges due ..."
+    },
+    {
+        "question": "Provide a summary of the software engineering section.",
+        "gold_ids": [
+            "BSCS Booklet.pdf_p5_c3"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "are Development Fundamentals Crypto Trading Market Predictor Parent Eye SafeLoud Software Engineerin..."
+    },
+    {
+        "question": "What is the NUST stance on course?",
+        "gold_ids": [
+            "UG Handbook.pdf_p60_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "56 NUST Undergraduate Student Handbook prescribed form to the Registrar duly recommended by the resp..."
+    },
+    {
+        "question": "Provide a summary of the leave section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p102_c0"
+        ],
+        "topic": "Attendance",
+        "source_preview": "98 NUST Undergraduate Student Handbook 15. In/Out Timings. a. Students are not allowed to stay out o..."
+    },
+    {
+        "question": "How does the handbook define the policy for exam?",
+        "gold_ids": [
+            "UG Handbook.pdf_p65_c1"
+        ],
+        "topic": "Grading",
+        "source_preview": "given to the students on a performance basis as per policy in vogue, in each semester. b. Forfeiture..."
+    },
+    {
+        "question": "Can you explain the procedure for mess?",
+        "gold_ids": [
+            "BSCS Booklet.pdf_p2_c0"
+        ],
+        "topic": "Hostel",
+        "source_preview": "32 Abstract Booklet BSCS 2022 Abstract Booklet BSCS 2022 It is a pleasure to introduce to you the gr..."
+    },
+    {
+        "question": "If a student has an issue with hostel, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p101_c0"
+        ],
+        "topic": "Hostel",
+        "source_preview": "NUST Undergraduate Student Handbook 97 (8) Making any structural additions or alterations in their r..."
+    },
+    {
+        "question": "What specific requirements are listed for exam?",
+        "gold_ids": [
+            "UG Handbook.pdf_p16_c0"
+        ],
+        "topic": "Grading",
+        "source_preview": "12 NUST Undergraduate Student Handbook individuals or groups of students and each student is require..."
+    },
+    {
+        "question": "If a student has an issue with attendance, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p45_c1"
+        ],
+        "topic": "Attendance",
+        "source_preview": "previous semester keeping in view the resources available. 4. Awarding of F/XF, I, and W Grades. a. ..."
+    },
+    {
+        "question": "What specific requirements are listed for leave?",
+        "gold_ids": [
+            "UG Handbook.pdf_p59_c2"
+        ],
+        "topic": "Attendance",
+        "source_preview": ". Institutional Focal Persons for Internationalization (IFPI) will be the point of contact for excha..."
+    },
+    {
+        "question": "Can you explain the procedure for course?",
+        "gold_ids": [
+            "UG Handbook.pdf_p59_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "NUST Undergraduate Student Handbook 55 institutions are sending students to reputed foreign universi..."
+    },
+    {
+        "question": "How does the handbook define the policy for hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p105_c0"
+        ],
+        "topic": "Hostel",
+        "source_preview": "NUST Undergraduate Student Handbook 101 c. Assistant Director Hostels (Male) d. Assistant Director H..."
+    },
+    {
+        "question": "Provide a summary of the fee section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p37_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "NUST Undergraduate Student Handbook 33 20. Issue of Academic Transcript/Detailed Mark Sheet . A stud..."
+    },
+    {
+        "question": "What are the consequences related to project?",
+        "gold_ids": [
+            "BSCS Booklet.pdf_p13_c1"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "ecisions. There are 72 million people all over the globe who are vocally impaired and use sign langu..."
+    },
+    {
+        "question": "What are the official rules regarding course?",
+        "gold_ids": [
+            "UG Handbook.pdf_p38_c1"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "ardian and the student's tutor. 25. Warning. a. Definition. \u201cWarning\u201d means a written cautionary sta..."
+    },
+    {
+        "question": "Is there any mention of fee in the regulations?",
+        "gold_ids": [
+            "UG Handbook.pdf_p98_c1"
+        ],
+        "topic": "Fees",
+        "source_preview": " 15,175/- (Rs 490/- per day) d. Payment of Dues. Hostel dues are required to be paid on a semester b..."
+    },
+    {
+        "question": "If a student has an issue with probation, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p70_c1"
+        ],
+        "topic": "Grading",
+        "source_preview": "A. d. Language Courses. A student may take language courses (French, German, Spanish & Chinese) bein..."
+    },
+    {
+        "question": "Is there any mention of hostel in the regulations?",
+        "gold_ids": [
+            "UG Handbook.pdf_p98_c0"
+        ],
+        "topic": "Hostel",
+        "source_preview": "94 NUST Undergraduate Student Handbook (3) Double occupancy (attached washroom) - Rs 10,000/- per mo..."
+    },
+    {
+        "question": "How does the handbook define the policy for hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p102_c1"
+        ],
+        "topic": "Hostel",
+        "source_preview": " d. Students are advised to display hostel (yellow) card s for identification while going out of the..."
+    },
+    {
+        "question": "What specific requirements are listed for dues?",
+        "gold_ids": [
+            "UG Handbook.pdf_p103_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "NUST Undergraduate Student Handbook 99 NUST Hostel Administration reserves the right to use the temp..."
+    },
+    {
+        "question": "How does the handbook define the policy for exam?",
+        "gold_ids": [
+            "UG Handbook.pdf_p80_c0"
+        ],
+        "topic": "Grading",
+        "source_preview": "76 NUST Undergraduate Student Handbook k. Alumni 4. Services Feedback forms links . Students can giv..."
+    },
+    {
+        "question": "Detail the guidelines provided for credit hour.",
+        "gold_ids": [
+            "UG Handbook.pdf_p15_c0"
+        ],
+        "topic": "Grading",
+        "source_preview": "NUST Undergraduate Student Handbook 11 Ser Programme Title CHs kk. Bachelor of Science in Artificial..."
+    },
+    {
+        "question": "Is there any mention of hostel in the regulations?",
+        "gold_ids": [
+            "UG Handbook.pdf_p103_c2"
+        ],
+        "topic": "Hostel",
+        "source_preview": "e not allowed to keep a car in the hostel. 22. Damage to Property . Students are expected to coopera..."
+    },
+    {
+        "question": "What are the consequences related to hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p88_c1"
+        ],
+        "topic": "Hostel",
+        "source_preview": "udents who disobey authority and violate the code of conduct will be informed. Students may be held ..."
+    },
+    {
+        "question": "Detail the guidelines provided for exam.",
+        "gold_ids": [
+            "UG Handbook.pdf_p68_c2"
+        ],
+        "topic": "Grading",
+        "source_preview": "d is committed to removing barriers and providing access to students who have any special needs due ..."
+    },
+    {
+        "question": "Provide a summary of the exam section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p69_c0"
+        ],
+        "topic": "Grading",
+        "source_preview": "NUST Undergraduate Student Handbook 65 (2) Rep Administration Directorate - Member (3) Rep Admission..."
+    },
+    {
+        "question": "Provide a summary of the absent section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p48_c2"
+        ],
+        "topic": "Attendance",
+        "source_preview": " in a semester on medical grounds or reasons beyond his/her control. (3) If the student remains abse..."
+    },
+    {
+        "question": "Provide a summary of the attendance section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p33_c1"
+        ],
+        "topic": "Attendance",
+        "source_preview": " and will be approved one month before the start of the semester. (2) Assessment will be based on th..."
+    },
+    {
+        "question": "Detail the guidelines provided for exam.",
+        "gold_ids": [
+            "UG Handbook.pdf_p32_c1"
+        ],
+        "topic": "Grading",
+        "source_preview": "o retain the student's studio and/or theory work for publication or put it on the web pages with due..."
+    },
+    {
+        "question": "If a student has an issue with mess, what is the protocol?",
+        "gold_ids": [
+            "BSCS Booklet.pdf_p2_c1"
+        ],
+        "topic": "Hostel",
+        "source_preview": "ge, we also believe in instilling sound entrepreneurial, social and humanitarian values. Greeting & ..."
+    },
+    {
+        "question": "Can you explain the procedure for hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p100_c1"
+        ],
+        "topic": "Hostel",
+        "source_preview": "l assistance. (14) Students re expected to be well dressed & tidy. (15) \u201cLost and found items\u201d be re..."
+    },
+    {
+        "question": "What is the NUST stance on project?",
+        "gold_ids": [
+            "BSCS Booklet.pdf_p9_c0"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "1716 Abstract Booklet BSCS 2022 Abstract Booklet BSCS 2022 Knowledge Area: Knowledge Area: (ii) iden..."
+    },
+    {
+        "question": "What are the official rules regarding probation?",
+        "gold_ids": [
+            "UG Handbook.pdf_p38_c2"
+        ],
+        "topic": "Grading",
+        "source_preview": "k comprising home assignments, laboratory reports, quiz zes, mid -semester/one-hour tests, and the m..."
+    },
+    {
+        "question": "If a student has an issue with degree, what is the protocol?",
+        "gold_ids": [
+            "UG Handbook.pdf_p57_c2"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "The second-degree option is exclusively available for NUST graduates of the students graduated in la..."
+    },
+    {
+        "question": "How does the handbook define the policy for fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p63_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "NUST Undergraduate Student Handbook 59 (4) Lack of motivation (5) Adjustment problems / Homesickness..."
+    },
+    {
+        "question": "How does the handbook define the policy for shortage?",
+        "gold_ids": [
+            "UG Handbook.pdf_p19_c0"
+        ],
+        "topic": "Attendance",
+        "source_preview": "NUST Undergraduate Student Handbook 15 17. For purely theoretical and purely practical courses, the ..."
+    },
+    {
+        "question": "What are the official rules regarding degree?",
+        "gold_ids": [
+            "UG Handbook.pdf_p51_c2"
+        ],
+        "topic": "Curriculum",
+        "source_preview": "urses. c. S/he shall pay a 25% tuition fee to maintain his/her registration. d. The student has the ..."
+    },
+    {
+        "question": "What specific requirements are listed for attendance?",
+        "gold_ids": [
+            "UG Handbook.pdf_p35_c1"
+        ],
+        "topic": "Attendance",
+        "source_preview": "esis. The advisor must have sufficient experience and relevant qualifications in the field of Archit..."
+    },
+    {
+        "question": "Detail the guidelines provided for hostel.",
+        "gold_ids": [
+            "UG Handbook.pdf_p3_c2"
+        ],
+        "topic": "Hostel",
+        "source_preview": "...................................................................... 77 Chapter 12: Living on Camp..."
+    },
+    {
+        "question": "What are the official rules regarding hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p104_c2"
+        ],
+        "topic": "Hostel",
+        "source_preview": "s available in all the Hostels. It is expected that students will utilize the same with extreme care..."
+    },
+    {
+        "question": "What is the NUST stance on fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p66_c0"
+        ],
+        "topic": "Fees",
+        "source_preview": "62 NUST Undergraduate Student Handbook students can apply for such scholarships once they are admitt..."
+    },
+    {
+        "question": "Provide a summary of the attendance section.",
+        "gold_ids": [
+            "UG Handbook.pdf_p20_c1"
+        ],
+        "topic": "Attendance",
+        "source_preview": "ogrammes the class size usually does not exceed 50. To have healthy academic competition among the s..."
+    },
+    {
+        "question": "What specific requirements are listed for fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p53_c2"
+        ],
+        "topic": "Fees",
+        "source_preview": "eficiencies by taking a maximum of three courses during the summer semester, and will pay the prescr..."
+    },
+    {
+        "question": "What are the consequences related to GPA?",
+        "gold_ids": [
+            "UG Handbook.pdf_p21_c0"
+        ],
+        "topic": "Grading",
+        "source_preview": "NUST Undergraduate Student Handbook 17 26. Adding / Dropping of Course(s) a. Adding / Dropping of co..."
+    },
+    {
+        "question": "What are the consequences related to transcript?",
+        "gold_ids": [
+            "UG Handbook.pdf_p73_c0"
+        ],
+        "topic": "Grading",
+        "source_preview": "NUST Undergraduate Student Handbook 69 d. A student who has taken less than the regular semester loa..."
+    },
+    {
+        "question": "Detail the guidelines provided for exam.",
+        "gold_ids": [
+            "UG Handbook.pdf_p30_c0"
+        ],
+        "topic": "Grading",
+        "source_preview": "26 NUST Undergraduate Student Handbook (2) End Semester Examination. The last comprehensive examinat..."
+    },
+    {
+        "question": "Can you explain the procedure for fee?",
+        "gold_ids": [
+            "UG Handbook.pdf_p65_c2"
+        ],
+        "topic": "Fees",
+        "source_preview": "s to acquire higher education on its campuses. Salient features of the scheme are as follows: (1) A ..."
+    },
+    {
+        "question": "Can you explain the procedure for hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p96_c1"
+        ],
+        "topic": "Hostel",
+        "source_preview": "ogramme for 4 Years and for B Architecture, LLB & MBBS hostel accommodation will be provided for 5 Y..."
+    }
+]
