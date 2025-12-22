@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUST Policies Copilot</title>
+    <meta name="description" content="An AI-powered RAG assistant for NUST university policies.">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #004d40; /* NUST Green-ish */
+            --accent: #00bfa5;
+            --bg: #0f172a;
+            --text: #f8fafc;
+            --card-bg: rgba(30, 41, 59, 0.7);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        /* Background Animation */
+        .bg-gradient {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: radial-gradient(circle at 50% 50%, #1e293b 0%, #0f172a 100%);
+        }
+        
+        .blob {
+            position: absolute;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(0, 191, 165, 0.15) 0%, transparent 70%);
+            border-radius: 50%;
+            animation: move 20s infinite alternate;
+        }
+
+        @keyframes move {
+            from { transform: translate(-10%, -10%); }
+            to { transform: translate(10%, 10%); }
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .badge {
+            background: rgba(0, 191, 165, 0.1);
+            color: var(--accent);
+            padding: 0.5rem 1rem;
+            border-radius: 50px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            margin-bottom: 1.5rem;
+            border: 1px solid rgba(0, 191, 165, 0.3);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        h1 {
+            font-size: 4rem;
+            font-weight: 800;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(to right, #fff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            max-width: 600px;
+            margin-bottom: 3rem;
+        }
+
+        /* Buttons */
+        .btn-group {
+            display: flex;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 1rem 2rem;
+            border-radius: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-size: 1.1rem;
+        }
+
+        .btn-primary {
+            background: var(--accent);
+            color: #0f172a;
+            box-shadow: 0 0 20px rgba(0, 191, 165, 0.4);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 0 30px rgba(0, 191, 165, 0.6);
+        }
+
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.05);
+            color: white;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.1);
+            transform: translateY(-3px);
+        }
+
+        /* Features Grid */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 4rem 0;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 2rem;
+            border-radius: 16px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(0, 191, 165, 0.3);
+        }
+
+        .card i {
+            font-size: 2rem;
+            color: var(--accent);
+            margin-bottom: 1.5rem;
+        }
+
+        .card h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .card p {
+            color: #94a3b8;
+        }
+
+        /* Footer / Team */
+        .footer {
+            margin-top: 4rem;
+            padding: 4rem 2rem;
+            background: rgba(15, 23, 42, 0.8);
+            border-top: 1px solid rgba(255, 255, 255, 0.05);
+            text-align: center;
+        }
+
+        .team-grid {
+            display: flex;
+            justify-content: center;
+            gap: 4rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .team-member h4 {
+            color: white;
+            font-size: 1.2rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .team-member span {
+            color: var(--accent);
+            font-size: 0.9rem;
+            font-family: monospace;
+        }
+
+        .course-info {
+            margin-top: 3rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            h1 { font-size: 2.5rem; }
+            .hero { min-height: auto; padding-top: 6rem; }
+            .team-grid { gap: 2rem; flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-gradient">
+        <div class="blob" style="top: 0; left: 0;"></div>
+        <div class="blob" style="bottom: 0; right: 0; animation-delay: -5s;"></div>
+    </div>
+
+    <div class="container">
+        <header class="hero">
+            <div class="badge">Built with Gemini & LangChain</div>
+            <h1>NUST Policies Copilot</h1>
+            <p>A strictly grounded RAG assistant for NUST University handbooks. 
+               Get instant answers about Attendance, Grading, Fees, and Hostels with zero hallucinations.</p>
+            
+            <div class="btn-group">
+                <a href="https://nust-policy-copilot.streamlit.app" target="_blank" class="btn btn-primary">
+                    <i class="fa-solid fa-rocket"></i> Launch Copilot
+                </a>
+                <a href="https://youtu.be/iQMTctBSRaQ" target="_blank" class="btn btn-secondary">
+                    <i class="fa-brands fa-youtube"></i> Watch Demo
+                </a>
+                <a href="https://github.com/m-m4h4d/nust-policy-copilot" target="_blank" class="btn btn-secondary">
+                    <i class="fa-brands fa-github"></i> Source Code
+                </a>
+            </div>
+        </header>
+
+        <section class="features">
+            <div class="card">
+                <i class="fa-solid fa-shield"></i>
+                <h3>Strict Mode</h3>
+                <p>Our novel citation-checker mathematically verifies every source. If the AI hallucinates a page number, Strict Mode strips it out instantly.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-layer-group"></i>
+                <h3>Hybrid Retrieval</h3>
+                <p>Combines dense vector search (FAISS) with keyword search (BM25) to understand both semantic meaning and specific course codes.</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-clock-rotate-left"></i>
+                <h3>Staleness Control</h3>
+                <p>Dynamically detects out-of-domain queries. The bot knows the current year (2025) and warns you if you ask for outdated fees.</p>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <h2 style="margin-bottom: 2rem; font-weight: 400;">Project Team</h2>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <h4>Muhammad Mahad</h4>
+                    <span>CMS ID: 408576</span>
+                </div>
+                <div class="team-member">
+                    <h4>Muhammad Ali Tahir</h4>
+                    <span>CMS ID: 411327</span>
+                </div>
+            </div>
+
+            <div class="course-info">
+                <p>Course: <strong>Large Language Models (LLMs)</strong></p>
+                <p>Instructor: <strong>Dr. Muhammad Moazam Fraz</strong></p>
+                <p style="margin-top: 1rem;">National University of Sciences & Technology (NUST)</p>
+                <p>School of Electrical Engineering and Computer Science (SEECS)</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
