@@ -26,7 +26,7 @@ class NustCopilot:
         self.llm = ChatGoogleGenerativeAI(
             model=config.LLM_MODEL,
             temperature=0,
-            google_api_key=config.GOOGLE_API_KEY
+            google_api_key=os.environ.get("GOOGLE_API_KEY")
             )
         
         # Prompt with Staleness Logic
