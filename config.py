@@ -1,10 +1,15 @@
 import os
+import streamlit as st
 
-# --- AUTHENTICATION ---
-GOOGLE_API_KEY = "AIzaSyBgmbd9UgOlCtpvW7i5aGq_wOPW9zZCz7I"
-
-# Set it in the environment so libraries can find it automatically
-os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
+# Try to get key from Streamlit Secrets (Cloud) OR Environment (Local)
+if "GOOGLE_API_KEY" in st.secrets:
+    os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
+elif "GOOGLE_API_KEY" in os.environ:
+    pass # Key already set locally
+else:
+    # Fallback for local testing if not using env vars
+    # os.environ["GOOGLE_API_KEY"] = "AIza..." # Only uncomment locally!
+    pass
 
 # --- MODEL CONFIG ---
 SEED = 42
