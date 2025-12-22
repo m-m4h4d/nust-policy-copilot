@@ -23,11 +23,11 @@ class NustCopilot:
         self.bm25_retriever.k = config.RETRIEVAL_K
         
         # LLM
-        self.llm = ChatGoogleGenerativeAI(
+        self.llm = ChatGoogleGenerativeAI (
             model=config.LLM_MODEL,
             temperature=0,
             google_api_key=os.environ.get("GOOGLE_API_KEY")
-            )
+        )
         
         # Prompt with Staleness Logic
         self.prompt = ChatPromptTemplate.from_template(
