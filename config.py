@@ -2,7 +2,7 @@ import os
 import streamlit as st
 
 # --- GOOGLE API KEY SETUP ---
-os.environ["GOOGLE_API_KEY"] = st.secrets.get["GOOGLE_API_KEY"]
+os.environ["GOOGLE_API_KEY"] = st.secrets["GOOGLE_API_KEY"]
 
 # # Try to get key from Streamlit Secrets (Cloud) OR Environment (Local)
 # if "GOOGLE_API_KEY" in st.secrets:
