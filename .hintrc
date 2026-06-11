@@ -4,7 +4,8 @@
   ],
   "hints": {
     "disown-opener": "off",
-    "no-inline-styles": "off"
+    "no-inline-styles": "off",
+    "compat-api/css": "off"
   },
   "browserslist": [
     "defaults",

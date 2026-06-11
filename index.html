@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="favicon.ico">
     <title>NUST Policies Copilot</title>
     <meta name="description" content="An AI-powered RAG assistant for NUST university policies.">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
         :root {
-            --primary: #004d40; /* NUST Green-ish */
+            --primary: #004d40;
+            /* NUST Green-ish */
             --accent: #00bfa5;
             --bg: #0f172a;
             --text: #f8fafc;
@@ -39,7 +42,7 @@
             z-index: -1;
             background: radial-gradient(circle at 50% 50%, #1e293b 0%, #0f172a 100%);
         }
-        
+
         .blob {
             position: absolute;
             width: 500px;
@@ -50,8 +53,13 @@
         }
 
         @keyframes move {
-            from { transform: translate(-10%, -10%); }
-            to { transform: translate(10%, 10%); }
+            from {
+                transform: translate(-10%, -10%);
+            }
+
+            to {
+                transform: translate(10%, 10%);
+            }
         }
 
         /* Container */
@@ -92,6 +100,7 @@
             margin-bottom: 1.5rem;
             background: linear-gradient(to right, #fff, #94a3b8);
             -webkit-background-clip: text;
+            background-clip: text;
             -webkit-text-fill-color: transparent;
         }
 
@@ -137,6 +146,7 @@
             background: rgba(255, 255, 255, 0.05);
             color: white;
             border: 1px solid rgba(255, 255, 255, 0.1);
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
         }
 
@@ -158,6 +168,7 @@
             padding: 2rem;
             border-radius: 16px;
             border: 1px solid rgba(255, 255, 255, 0.05);
+            -webkit-backdrop-filter: blur(10px);
             backdrop-filter: blur(10px);
             transition: transform 0.3s ease;
         }
@@ -219,12 +230,23 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            h1 { font-size: 2.5rem; }
-            .hero { min-height: auto; padding-top: 6rem; }
-            .team-grid { gap: 2rem; flex-direction: column; }
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero {
+                min-height: auto;
+                padding-top: 6rem;
+            }
+
+            .team-grid {
+                gap: 2rem;
+                flex-direction: column;
+            }
         }
     </style>
 </head>
+
 <body>
     <div class="bg-gradient">
         <div class="blob" style="top: 0; left: 0;"></div>
@@ -235,9 +257,9 @@
         <header class="hero">
             <div class="badge">Built with Gemini & LangChain</div>
             <h1>NUST Policies Copilot</h1>
-            <p>A strictly grounded RAG assistant for NUST University handbooks. 
-               Get instant answers about Attendance, Grading, Fees, and Hostels with zero hallucinations.</p>
-            
+            <p>A strictly grounded RAG assistant for NUST University handbooks.
+                Get instant answers about Attendance, Grading, Fees, and Hostels with zero hallucinations.</p>
+
             <div class="btn-group">
                 <a href="https://nust-policy-copilot.streamlit.app" target="_blank" class="btn btn-primary">
                     <i class="fa-solid fa-rocket"></i> Launch Copilot
@@ -255,23 +277,26 @@
             <div class="card">
                 <i class="fa-solid fa-shield"></i>
                 <h3>Strict Mode</h3>
-                <p>Our novel citation-checker mathematically verifies every source. If the AI hallucinates a page number, Strict Mode strips it out instantly.</p>
+                <p>Our novel citation-checker mathematically verifies every source. If the AI hallucinates a page
+                    number, Strict Mode strips it out instantly.</p>
             </div>
             <div class="card">
                 <i class="fa-solid fa-layer-group"></i>
                 <h3>Hybrid Retrieval</h3>
-                <p>Combines dense vector search (FAISS) with keyword search (BM25) to understand both semantic meaning and specific course codes.</p>
+                <p>Combines dense vector search (FAISS) with keyword search (BM25) to understand both semantic meaning
+                    and specific course codes.</p>
             </div>
             <div class="card">
                 <i class="fa-solid fa-clock-rotate-left"></i>
                 <h3>Staleness Control</h3>
-                <p>Dynamically detects out-of-domain queries. The bot knows the current year (2025) and warns you if you ask for outdated fees.</p>
+                <p>Dynamically detects out-of-domain queries. The bot knows the current year (2025) and warns you if you
+                    ask for outdated fees.</p>
             </div>
         </section>
 
         <footer class="footer">
             <h2 style="margin-bottom: 2rem; font-weight: 400;">Project Team</h2>
-            
+
             <div class="team-grid">
                 <div class="team-member">
                     <h4>Muhammad Mahad</h4>
@@ -292,4 +317,5 @@
         </footer>
     </div>
 </body>
+
 </html>
