@@ -54,40 +54,49 @@ class NustCopilot:
         return [Document(page_content=d['page_content'], metadata=d['metadata']) for d in data]
 
     def get_hybrid_docs(self, query):
-        # RRF Logic
+        # Reciprocal Rank Fusion: score(d) = sum over retrievers of 1 / (RRF_K + rank)
         dense_docs = self.dense_retriever.invoke(query)
         sparse_docs = self.bm25_retriever.invoke(query)
-        
-        # Simple deduplication for demo speed (Production would use RRF math)
-        seen = set()
-        final_docs = []
-        for d in dense_docs + sparse_docs:
-            if d.metadata['doc_id'] not in seen:
-                final_docs.append(d)
-                seen.add(d.metadata['doc_id'])
-        return final_docs[:config.RETRIEVAL_K]
 
-    def answer(self, query, strict_mode=True):
-        docs = self.get_hybrid_docs(query)
+        scores = {}
+        docs_by_id = {}
+        for ranked in (dense_docs, sparse_docs):
+            for rank, d in enumerate(ranked, start=1):
+                doc_id = d.metadata['doc_id']
+                scores[doc_id] = scores.get(doc_id, 0.0) + 1.0 / (config.RRF_K + rank)
+                docs_by_id[doc_id] = d
+
+        fused_ids = sorted(scores, key=scores.get, reverse=True)
+        return [docs_by_id[i] for i in fused_ids[:config.RETRIEVAL_K]]
+
+    def generate(self, query, use_hybrid=True):
+        """Retrieve and generate. Returns the raw LLM output (no cite-checking) and the docs."""
+        docs = self.get_hybrid_docs(query) if use_hybrid else self.dense_retriever.invoke(query)
         if not docs: return "I cannot answer this.", []
-        
+
         context_str = "\n\n".join([f"Source [{d.metadata['doc_id']}]: {d.page_content}" for d in docs])
-        
+
         response = self.chain.invoke({
-            "context": context_str, 
+            "context": context_str,
             "question": query,
             "date": datetime.now().strftime("%Y-%m-%d")
         })
-        
-        if strict_mode:
-            # Simple cite-checker: Ensure cited ID exists in retrieved docs
-            retrieved_ids = [d.metadata['doc_id'] for d in docs]
-            citations = re.findall(r'\[(.*?)\]', response)
-            for cit in citations:
-                if cit not in retrieved_ids:
-                    response = response.replace(f"[{cit}]", "") # Strip hallucination
-            
-            if len(citations) == 0 and "cannot answer" not in response:
-                 response += "\n\n(Note: No verifiable citations found for this generated answer.)"
+        return response, docs
 
+    def apply_strict_mode(self, response, docs):
+        # Simple cite-checker: Ensure cited ID exists in retrieved docs
+        retrieved_ids = [d.metadata['doc_id'] for d in docs]
+        citations = re.findall(r'\[(.*?)\]', response)
+        for cit in citations:
+            if cit not in retrieved_ids:
+                response = response.replace(f"[{cit}]", "") # Strip hallucination
+
+        if len(citations) == 0 and "cannot answer" not in response:
+             response += "\n\n(Note: No verifiable citations found for this generated answer.)"
+        return response
+
+    def answer(self, query, strict_mode=True):
+        response, docs = self.generate(query)
+        if strict_mode and docs:
+            response = self.apply_strict_mode(response, docs)
         return response, docs

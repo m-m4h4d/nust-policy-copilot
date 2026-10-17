@@ -19,6 +19,7 @@ SEED = 42
 CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 150
 RETRIEVAL_K = 5
+RRF_K = 60  # Standard RRF smoothing constant (Cormack et al., 2009)
 MODEL_NAME = "all-MiniLM-L6-v2"
 LLM_MODEL = "gemini-2.5-flash"
 
