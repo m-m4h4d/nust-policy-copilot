@@ -1,0 +1,496 @@
+[
+    {
+        "question": "What is the minimum attendance required to sit the end semester exam of a course?",
+        "gold_ids": [
+            "UG Handbook.pdf_p16_c0",
+            "UG Handbook.pdf_p20_c1",
+            "UG Handbook.pdf_p35_c1",
+            "UG Handbook.pdf_p45_c1"
+        ],
+        "answer": "75%; below that the student cannot sit the exam and gets an XF grade.",
+        "topic": "Attendance",
+        "answerable": true
+    },
+    {
+        "question": "Can a student who got an XF grade appear in the end semester retest?",
+        "gold_ids": [
+            "UG Handbook.pdf_p27_c2",
+            "UG Handbook.pdf_p51_c0"
+        ],
+        "answer": "No. Only an F for academic failure is eligible for retest; XF (low attendance) is not.",
+        "topic": "Attendance",
+        "answerable": true
+    },
+    {
+        "question": "How can a student clear an XF grade?",
+        "gold_ids": [
+            "UG Handbook.pdf_p20_c1",
+            "UG Handbook.pdf_p35_c1",
+            "UG Handbook.pdf_p45_c1"
+        ],
+        "answer": "Only by repeating the course whenever it is offered.",
+        "topic": "Attendance",
+        "answerable": true
+    },
+    {
+        "question": "What happens if a student is absent for 45 or more consecutive days without informing the university?",
+        "gold_ids": [
+            "UG Handbook.pdf_p25_c1",
+            "UG Handbook.pdf_p39_c1",
+            "UG Handbook.pdf_p39_c2",
+            "UG Handbook.pdf_p49_c0"
+        ],
+        "answer": "Their admission/registration is suspended.",
+        "topic": "Attendance",
+        "answerable": true
+    },
+    {
+        "question": "How many grade points is a B+ worth?",
+        "gold_ids": [
+            "UG Handbook.pdf_p19_c0",
+            "UG Handbook.pdf_p45_c0"
+        ],
+        "answer": "3.50",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "What minimum CGPA is needed to graduate from BBA?",
+        "gold_ids": [
+            "UG Handbook.pdf_p19_c1"
+        ],
+        "answer": "2.50",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "What are the requirements to be awarded a BE/BS degree?",
+        "gold_ids": [
+            "UG Handbook.pdf_p23_c0"
+        ],
+        "answer": "Complete the prescribed credit hours and achieve a minimum CGPA of 2.00 with at least a C in the final year project.",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "If I repeat a course, which grade counts towards my CGPA?",
+        "gold_ids": [
+            "UG Handbook.pdf_p27_c0",
+            "UG Handbook.pdf_p27_c1",
+            "UG Handbook.pdf_p41_c0",
+            "UG Handbook.pdf_p41_c1",
+            "UG Handbook.pdf_p41_c2",
+            "UG Handbook.pdf_p50_c1",
+            "UG Handbook.pdf_p50_c2",
+            "UG Handbook.pdf_p51_c1"
+        ],
+        "answer": "Both grades appear on the transcript, but the better grade is used for CGPA.",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "If I fail a course and then fail it again after repeating, how many F grades are counted?",
+        "gold_ids": [
+            "UG Handbook.pdf_p27_c0",
+            "UG Handbook.pdf_p41_c1",
+            "UG Handbook.pdf_p50_c1"
+        ],
+        "answer": "Only one F.",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "What is the highest grade I can get in an end semester retest?",
+        "gold_ids": [
+            "UG Handbook.pdf_p27_c2",
+            "UG Handbook.pdf_p28_c0",
+            "UG Handbook.pdf_p51_c0"
+        ],
+        "answer": "D",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "How is the final grade calculated for a course with both theory and practical credits?",
+        "gold_ids": [
+            "UG Handbook.pdf_p19_c0"
+        ],
+        "answer": "Credit-weighted average of theory and practical percentages, e.g. (70x3 + 90x1)/4 = 75%.",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "When is a student placed on academic probation?",
+        "gold_ids": [
+            "UG Handbook.pdf_p24_c1",
+            "UG Handbook.pdf_p39_c0"
+        ],
+        "answer": "When CGPA is below 2.00 (not in the first semester) and they don't qualify for withdrawal, or on disciplinary grounds.",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "How many F/XF grades lead to withdrawal from NUST?",
+        "gold_ids": [
+            "UG Handbook.pdf_p26_c0",
+            "UG Handbook.pdf_p26_c1",
+            "UG Handbook.pdf_p40_c1",
+            "UG Handbook.pdf_p49_c2"
+        ],
+        "answer": "Seven or more F/XF grades (or five or more in the first semester).",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "How many consecutive probations result in withdrawal?",
+        "gold_ids": [
+            "UG Handbook.pdf_p26_c1",
+            "UG Handbook.pdf_p40_c1",
+            "UG Handbook.pdf_p49_c2"
+        ],
+        "answer": "Four consecutive probations (not applicable to the 7th and 8th semesters).",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "Can I get my exam answer book reassessed?",
+        "gold_ids": [
+            "UG Handbook.pdf_p22_c0",
+            "UG Handbook.pdf_p22_c1"
+        ],
+        "answer": "No. Answer books are not reassessed under any circumstances; only rechecking (totals, unmarked portions) is allowed.",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "How much does it cost to get a paper rechecked?",
+        "gold_ids": [
+            "UG Handbook.pdf_p106_c0"
+        ],
+        "answer": "Rs 500 per paper.",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "What is the deadline to apply for rechecking a paper?",
+        "gold_ids": [
+            "UG Handbook.pdf_p106_c0"
+        ],
+        "answer": "Within 15 days after the result is declared.",
+        "topic": "Grading",
+        "answerable": true
+    },
+    {
+        "question": "Until which week of a regular semester can I drop a course?",
+        "gold_ids": [
+            "UG Handbook.pdf_p21_c0",
+            "UG Handbook.pdf_p36_c0",
+            "UG Handbook.pdf_p46_c1"
+        ],
+        "answer": "The 8th week (5th week in summer), with HoD recommendation and Dean approval.",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "What is the maximum number of W grades I can have in one semester?",
+        "gold_ids": [
+            "UG Handbook.pdf_p21_c1",
+            "UG Handbook.pdf_p36_c0",
+            "UG Handbook.pdf_p36_c1",
+            "UG Handbook.pdf_p46_c2"
+        ],
+        "answer": "Two per semester, and no more than four accumulated at any time.",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "How many credit hours can an undergraduate register for in a regular semester?",
+        "gold_ids": [
+            "UG Handbook.pdf_p21_c0",
+            "UG Handbook.pdf_p36_c0",
+            "UG Handbook.pdf_p46_c1",
+            "UG Handbook.pdf_p70_c0"
+        ],
+        "answer": "Minimum 12, maximum 18 (21 in exceptional circumstances).",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "How many courses can I take in a summer semester?",
+        "gold_ids": [
+            "UG Handbook.pdf_p53_c1",
+            "UG Handbook.pdf_p70_c0"
+        ],
+        "answer": "Two (three in exceptional cases, e.g. after an exchange programme).",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "What is the maximum time allowed to finish a 4-year bachelor's degree?",
+        "gold_ids": [
+            "UG Handbook.pdf_p15_c0",
+            "UG Handbook.pdf_p26_c1",
+            "UG Handbook.pdf_p50_c0"
+        ],
+        "answer": "Seven years.",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "How long is the mandatory internship and how is it graded?",
+        "gold_ids": [
+            "UG Handbook.pdf_p15_c0",
+            "UG Handbook.pdf_p15_c1"
+        ],
+        "answer": "At least 6 weeks, a 3 credit hour course recorded as Qualified / Not Qualified.",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "How long is the internship for Bachelor of Architecture students?",
+        "gold_ids": [
+            "UG Handbook.pdf_p29_c0"
+        ],
+        "answer": "Minimum 14 weeks.",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "How many credit hours is the community service course?",
+        "gold_ids": [
+            "UG Handbook.pdf_p15_c1"
+        ],
+        "answer": "2 credit hours.",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "If I miss the end semester exam for an acceptable reason, when is the make-up exam held?",
+        "gold_ids": [
+            "UG Handbook.pdf_p20_c3",
+            "UG Handbook.pdf_p35_c2",
+            "UG Handbook.pdf_p46_c0",
+            "UG Handbook.pdf_p46_c1"
+        ],
+        "answer": "Within the first six weeks of the next semester.",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "How late can I arrive to an exam and still be allowed in?",
+        "gold_ids": [
+            "UG Handbook.pdf_p17_c0"
+        ],
+        "answer": "No student may join more than thirty minutes after the exam starts.",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "How soon after graduating must I apply for a second degree at NUST?",
+        "gold_ids": [
+            "UG Handbook.pdf_p57_c1"
+        ],
+        "answer": "Within one year of graduation.",
+        "topic": "Curriculum",
+        "answerable": true
+    },
+    {
+        "question": "How much tuition fee do I pay to keep my registration while deferring a semester?",
+        "gold_ids": [
+            "UG Handbook.pdf_p28_c0",
+            "UG Handbook.pdf_p42_c0",
+            "UG Handbook.pdf_p51_c1",
+            "UG Handbook.pdf_p51_c2"
+        ],
+        "answer": "25% of the tuition fee (full fee if deferring the first semester).",
+        "topic": "Fees",
+        "answerable": true
+    },
+    {
+        "question": "What portion of tuition fee is refunded if I withdraw in the second week of classes?",
+        "gold_ids": [
+            "UG Handbook.pdf_p66_c0",
+            "UG Handbook.pdf_p66_c1"
+        ],
+        "answer": "50% (days 8-15); full refund up to day 7, nothing from day 16.",
+        "topic": "Fees",
+        "answerable": true
+    },
+    {
+        "question": "Is the admission processing fee refundable?",
+        "gold_ids": [
+            "UG Handbook.pdf_p66_c1",
+            "UG Handbook.pdf_p108_c0"
+        ],
+        "answer": "No, under no circumstances.",
+        "topic": "Fees",
+        "answerable": true
+    },
+    {
+        "question": "What is the per-semester tuition fee for national engineering students?",
+        "gold_ids": [
+            "UG Handbook.pdf_p108_c0"
+        ],
+        "answer": "PKR 171,350.",
+        "topic": "Fees",
+        "answerable": true
+    },
+    {
+        "question": "What is the penalty for paying tuition fee late?",
+        "gold_ids": [
+            "UG Handbook.pdf_p67_c1"
+        ],
+        "answer": "2% of the total payable amount if paid after 15 days of the invoice, up to the end of the 2nd week of semester.",
+        "topic": "Fees",
+        "answerable": true
+    },
+    {
+        "question": "How much is the make-up fee for a missed OHT, mid or end semester exam?",
+        "gold_ids": [
+            "UG Handbook.pdf_p108_c0",
+            "UG Handbook.pdf_p109_c0"
+        ],
+        "answer": "PKR 5,000 per course (USD 40 for international students).",
+        "topic": "Fees",
+        "answerable": true
+    },
+    {
+        "question": "Can I pay my university fee in installments?",
+        "gold_ids": [
+            "UG Handbook.pdf_p67_c1"
+        ],
+        "answer": "Yes, by applying through the school accounts branch to Fin Dte / fee section.",
+        "topic": "Fees",
+        "answerable": true
+    },
+    {
+        "question": "Can a scholarship or fee concession be taken away for misconduct?",
+        "gold_ids": [
+            "UG Handbook.pdf_p65_c1"
+        ],
+        "answer": "Yes; full, 75%, 50% or 25% can be forfeited for failure, lack of progress, breach of discipline or misconduct.",
+        "topic": "Fees",
+        "answerable": true
+    },
+    {
+        "question": "What is the monthly rent for a triple-occupancy hostel room?",
+        "gold_ids": [
+            "UG Handbook.pdf_p98_c0"
+        ],
+        "answer": "Rs 6,780 per month.",
+        "topic": "Hostel",
+        "answerable": true
+    },
+    {
+        "question": "How much is the hostel mess security deposit?",
+        "gold_ids": [
+            "UG Handbook.pdf_p97_c0",
+            "UG Handbook.pdf_p98_c0"
+        ],
+        "answer": "Rs 15,000, refundable.",
+        "topic": "Hostel",
+        "answerable": true
+    },
+    {
+        "question": "How many days of mess leave are allowed per month?",
+        "gold_ids": [
+            "UG Handbook.pdf_p97_c1"
+        ],
+        "answer": "Maximum 12 days.",
+        "topic": "Hostel",
+        "answerable": true
+    },
+    {
+        "question": "Are guests allowed to stay in the hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p100_c1",
+            "UG Handbook.pdf_p103_c0",
+            "UG Handbook.pdf_p103_c1"
+        ],
+        "answer": "No; guests may be entertained in the cafeterias only.",
+        "topic": "Hostel",
+        "answerable": true
+    },
+    {
+        "question": "Can undergraduate hostel residents keep a car?",
+        "gold_ids": [
+            "UG Handbook.pdf_p103_c1"
+        ],
+        "answer": "No.",
+        "topic": "Hostel",
+        "answerable": true
+    },
+    {
+        "question": "How much notice is needed before vacating the hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p103_c0"
+        ],
+        "answer": "At least one week, in writing to the Manager (Hostel).",
+        "topic": "Hostel",
+        "answerable": true
+    },
+    {
+        "question": "Is smoking allowed in the hostels?",
+        "gold_ids": [
+            "UG Handbook.pdf_p99_c0"
+        ],
+        "answer": "No, the university is a smoke-free zone.",
+        "topic": "Hostel",
+        "answerable": true
+    },
+    {
+        "question": "Which electric appliances can I keep in my hostel room?",
+        "gold_ids": [
+            "UG Handbook.pdf_p100_c1"
+        ],
+        "answer": "Only a bedroom refrigerator and room cooler, with permission and monthly charges.",
+        "topic": "Hostel",
+        "answerable": true
+    },
+    {
+        "question": "For how many years can a BS student live in the hostel?",
+        "gold_ids": [
+            "UG Handbook.pdf_p96_c0"
+        ],
+        "answer": "4 years (5 for B.Arch, LLB and MBBS).",
+        "topic": "Hostel",
+        "answerable": true
+    },
+    {
+        "question": "What counts as plagiarism under NUST policy?",
+        "gold_ids": [
+            "UG Handbook.pdf_p82_c0"
+        ],
+        "answer": "Representing another's words or ideas as one's own, or failing to attribute quotations, paraphrases or borrowed facts.",
+        "topic": "Conduct",
+        "answerable": true
+    },
+    {
+        "question": "What is the Wi-Fi password for the boys' hostels?",
+        "gold_ids": [],
+        "answer": null,
+        "topic": "Abstention",
+        "answerable": false
+    },
+    {
+        "question": "Who won the NUST inter-school cricket tournament in 2023?",
+        "gold_ids": [],
+        "answer": null,
+        "topic": "Abstention",
+        "answerable": false
+    },
+    {
+        "question": "What is the monthly parking fee for faculty cars?",
+        "gold_ids": [],
+        "answer": null,
+        "topic": "Abstention",
+        "answerable": false
+    },
+    {
+        "question": "What was the BSCS tuition fee in 2015?",
+        "gold_ids": [],
+        "answer": null,
+        "topic": "Abstention",
+        "answerable": false
+    }
+]

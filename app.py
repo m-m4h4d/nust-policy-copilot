@@ -1,9 +1,6 @@
 import streamlit as st
 import time
 from backend import NustCopilot
-from dotenv import load_dotenv
-
-load_dotenv()
 
 st.set_page_config(page_title="NUST Copilot", page_icon="🎓")
 
