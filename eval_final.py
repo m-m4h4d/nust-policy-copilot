@@ -2,7 +2,6 @@ import json
 import os
 import time
 import numpy as np
-from sklearn.metrics import ndcg_score
 from backend import NustCopilot
 import config
 
@@ -32,15 +31,13 @@ def calculate_retrieval_metrics(retrieved_docs, gold_ids):
     hits = set(retrieved_ids).intersection(set(gold_ids))
     recall = 1.0 if hits else 0.0
     
-    relevance = [1 if rid in gold_ids else 0 for rid in retrieved_ids]
-    if len(relevance) < config.RETRIEVAL_K:
-        relevance += [0] * (config.RETRIEVAL_K - len(relevance))
-    
-    ideal = sorted(relevance, reverse=True)
-    try:
-        ndcg = ndcg_score([ideal], [relevance], k=config.RETRIEVAL_K)
-    except:
-        ndcg = 0.0
+    # Binary-relevance nDCG@K. The ideal ranking puts ALL gold chunks first (up to K),
+    # not just the gold chunks that happened to be retrieved.
+    k = config.RETRIEVAL_K
+    relevance = [1 if rid in gold_ids else 0 for rid in retrieved_ids[:k]]
+    dcg = sum(rel / np.log2(i + 2) for i, rel in enumerate(relevance))
+    idcg = sum(1 / np.log2(i + 2) for i in range(min(len(set(gold_ids)), k)))
+    ndcg = dcg / idcg if idcg else 0.0
     return recall, ndcg
 
 def calculate_faithfulness(generated_answer, retrieved_docs):
