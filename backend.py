@@ -57,16 +57,16 @@ class NustCopilot:
         return [Document(page_content=d['page_content'], metadata=d['metadata']) for d in data]
 
     def get_hybrid_docs(self, query):
-        # Reciprocal Rank Fusion: score(d) = sum over retrievers of 1 / (RRF_K + rank)
+        # Weighted Reciprocal Rank Fusion: score(d) = sum over retrievers of weight / (RRF_K + rank)
         dense_docs = self.dense_retriever.invoke(query)
         sparse_docs = self.bm25_retriever.invoke(query)
 
         scores = {}
         docs_by_id = {}
-        for ranked in (dense_docs, sparse_docs):
+        for ranked, weight in ((dense_docs, config.DENSE_WEIGHT), (sparse_docs, config.SPARSE_WEIGHT)):
             for rank, d in enumerate(ranked, start=1):
                 doc_id = d.metadata['doc_id']
-                scores[doc_id] = scores.get(doc_id, 0.0) + 1.0 / (config.RRF_K + rank)
+                scores[doc_id] = scores.get(doc_id, 0.0) + weight / (config.RRF_K + rank)
                 docs_by_id[doc_id] = d
 
         fused_ids = sorted(scores, key=scores.get, reverse=True)
